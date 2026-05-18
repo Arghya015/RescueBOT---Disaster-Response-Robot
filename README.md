@@ -39,28 +39,28 @@ The robot is designed to enter risky zones, collect environmental information, a
 
 # 🚀 Key Features
 
-### 🚗 Smart Rescue Mobility
+###  Smart Rescue Mobility
 
 - Multi-direction robotic movement
 - Hazard zone navigation
 - Rough surface operation
 - Compact rescue design
 
-### 🔥 Hazard Detection
+###  Hazard Detection
 
 - Fire sensing
 - Temperature monitoring
 - Smoke detection
 - Emergency alerts
 
-### 📷 Surveillance System
+###  Surveillance System
 
 - Live monitoring
 - Obstacle observation
 - Disaster area inspection
 - Future AI victim detection
 
-### 🚨 Emergency Support
+###  Emergency Support
 
 - Alert generation
 - Real-time monitoring
@@ -159,35 +159,35 @@ Assist Rescue Team
 
 # 🌟 Innovation Highlights
 
-🤖 Smart Rescue Robotics
+ Smart Rescue Robotics
 
-🔥 Hazard Monitoring
+ Hazard Monitoring
 
-📷 Surveillance Integration
+ Surveillance Integration
 
-🚨 Emergency Response
+ Emergency Response
 
-🛰 Future Drone Expansion
+ Future Drone Expansion
 
-🧠 AI Ready Architecture
+ AI Ready Architecture
 
-🌍 Disaster Management Support
+ Disaster Management Support
 
 ---
 
 # 🔮 Future Scope
 
-🚁 Drone Integration
+ Drone Integration
 
-🌡 Thermal Camera System
+ Thermal Camera System
 
-🧠 AI Victim Detection
+ AI Victim Detection
 
-📍 GPS Tracking
+ GPS Tracking
 
-📡 Remote Communication
+ Remote Communication
 
-🤖 Semi-Autonomous Navigation
+ Semi-Autonomous Navigation
 
 ---
 
