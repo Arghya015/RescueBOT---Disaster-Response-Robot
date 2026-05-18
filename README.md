@@ -1,97 +1,210 @@
-# Disaster Management Robot (Arduino)
+<div align="center">
 
-## Overview
-This project is an autonomous disaster management robot built using Arduino.  
-It detects fire, gas leakage, motion disturbances, and obstacles, and responds accordingly using alerts and navigation logic. A servo-mounted camera continuously scans the surroundings.
+# 🚨🤖 RESCUEBOT
+### *Smart Disaster Response & Emergency Rescue Robot*
 
----
-
-## Features
-
-- Fire detection using dual flame sensors
-- Gas detection using MQ2 sensor
-- Motion detection using MPU6050 (X and Y axis monitoring)
-- Obstacle detection and avoidance using ultrasonic sensor
-- Continuous servo-based scanning mechanism
-- Buzzer and LED alert system (synchronized)
-- Autonomous forward movement with obstacle handling
-- Serial monitoring with periodic updates (2 seconds interval)
+<img src="https://img.shields.io/badge/STATUS-Prototype-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/DOMAIN-Disaster%20Management-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/TECH-Robotics%20%7C%20IoT%20%7C%20AI-blue?style=for-the-badge">
 
 ---
 
-## System Working
+### 🚑 Saving Lives Through Robotics & Intelligent Response
 
-### Normal Operation
-- Robot moves forward
-- Servo continuously sweeps from left to right and right to left
+*"Designed to assist rescue teams in dangerous environments where human access becomes difficult."*
 
-### Alert Conditions (Fire / Gas / Motion)
-- Robot stops immediately
-- Servo stops at current position
-- Buzzer and LED activate (two short beeps)
+🔥 Fire Detection • 🌫 Gas Monitoring • 📷 Surveillance • 🚗 Smart Mobility • 🚨 Emergency Alerts
 
-### Obstacle Detection
-- Robot stops
-- Turns right to avoid obstacle
-- Resumes forward motion
-
-### Serial Monitoring
-- Data printed every 2 seconds:
-  - Fire status
-  - Gas value
-  - Distance
-  - Acceleration (AX, AY)
-  - Change in axis (dX, dY)
-  - Motion status
+</div>
 
 ---
 
-## Hardware Components
+# 🌍 Overview
 
-| Component              | Quantity |
-|-----------------------|----------|
-| Arduino Uno           | 1        |
-| MPU6050 Sensor        | 1        |
-| MQ2 Gas Sensor        | 1        |
-| Flame Sensor          | 2        |
-| Ultrasonic Sensor     | 1        |
-| L298N Motor Driver    | 1        |
-| DC Motors             | 2        |
-| Servo Motor           | 1        |
-| Buzzer                | 1        |
-| LED                   | 1        |
+**RescueBot** is a smart disaster management robotic vehicle developed for emergency situations such as:
 
----
+🚒 Fire accidents
 
+🌍 Earthquakes
 
-## Software Requirements
+🏭 Industrial hazards
 
-- Arduino IDE
-- Required Libraries:
-  - Wire.h
-  - Servo.h
+⚠ Toxic environments
+
+🏚 Collapsed structures
+
+The robot is designed to enter risky zones, collect environmental information, and support rescue operations while reducing danger for human responders.
 
 ---
 
-## Setup Instructions
+# 🚀 Key Features
 
-1. Connect all components as per the pin configuration
-2. Install required libraries in Arduino IDE
-3. Upload the code to Arduino Uno
-4. Open Serial Monitor (baud rate: 9600)
-5. Power the system
+### 🚗 Smart Rescue Mobility
+
+- Multi-direction robotic movement
+- Hazard zone navigation
+- Rough surface operation
+- Compact rescue design
+
+### 🔥 Hazard Detection
+
+- Fire sensing
+- Temperature monitoring
+- Smoke detection
+- Emergency alerts
+
+### 📷 Surveillance System
+
+- Live monitoring
+- Obstacle observation
+- Disaster area inspection
+- Future AI victim detection
+
+### 🚨 Emergency Support
+
+- Alert generation
+- Real-time monitoring
+- Rescue assistance
+- Environmental analysis
 
 ---
 
-## Configuration Parameters
+# ⚙ Components Used
 
-| Parameter            | Description                          |
-|---------------------|--------------------------------------|
-| gasThreshold        | Gas detection sensitivity            |
-| motionThreshold     | Motion detection sensitivity         |
-| obstacleDistance    | Minimum distance for obstacle action |
-| stepDelay           | Servo speed control                  |
+```text
+ESP32 / Arduino
+
+Motor Driver
+
+DC Motors
+
+Flame Sensor
+
+Gas Sensor
+
+Temperature Sensor
+
+Camera Module
+
+Buzzer
+
+Battery Pack
+
+Chassis
+```
 
 ---
 
-## Sample Serial Output
+# 🏗 System Architecture
+
+```text
+
+          Disaster Environment
+
+                    |
+
+      +--------------------------+
+
+        Sensors + Monitoring
+
+   Fire | Gas | Temperature
+
+      +--------------------------+
+
+                    |
+
+               ESP32 Unit
+
+                    |
+
+        Decision & Alert System
+
+                    |
+
+          Motor Driver Control
+
+                    |
+
+              RescueBot
+
+                    |
+
+      Camera + Surveillance Unit
+```
+
+---
+
+# 🔄 Working Flow
+
+```text
+Detect Hazard
+      ↓
+
+Analyze Environment
+      ↓
+
+Send Alerts
+      ↓
+
+Navigate Area
+      ↓
+
+Monitor Situation
+      ↓
+
+Assist Rescue Team
+```
+
+---
+
+# 🌟 Innovation Highlights
+
+🤖 Smart Rescue Robotics
+
+🔥 Hazard Monitoring
+
+📷 Surveillance Integration
+
+🚨 Emergency Response
+
+🛰 Future Drone Expansion
+
+🧠 AI Ready Architecture
+
+🌍 Disaster Management Support
+
+---
+
+# 🔮 Future Scope
+
+🚁 Drone Integration
+
+🌡 Thermal Camera System
+
+🧠 AI Victim Detection
+
+📍 GPS Tracking
+
+📡 Remote Communication
+
+🤖 Semi-Autonomous Navigation
+
+---
+
+# 🎯 Mission
+
+> RescueBot aims to improve disaster response efficiency by combining robotics, sensing technologies, and intelligent automation into a compact rescue platform.
+
+---
+
+<div align="center">
+
+# 🚨 RESCUEBOT
+
+### *Protect • Detect • Rescue*
+
+**Built for Emergency Response & Human Safety**
+
+Made with ❤️ for Disaster Management Innovation
+
+</div>
