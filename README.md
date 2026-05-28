@@ -1,183 +1,204 @@
 ````md
 <div align="center">
 
-# 🚨🤖 RESCUEBOT
-### *Smart Disaster Response & Emergency Rescue Robot*
+# 🚨 RESCUEBOT
+### Smart Disaster Response & Emergency Rescue Robot
 
-<img src="https://img.shields.io/badge/STATUS-Prototype-red?style=for-the-badge">
-<img src="https://img.shields.io/badge/DOMAIN-Disaster%20Management-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/TECH-Robotics%20%7C%20IoT%20%7C%20AI-blue?style=for-the-badge">
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Prototype-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Domain-Disaster%20Management-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Technology-Robotics%20%7C%20IoT%20%7C%20AI-blue?style=for-the-badge">
+</p>
+
+<br>
+
+### Intelligent Robotics for Emergency & Disaster Management
+
+*Designed to assist rescue teams in hazardous environments where human access becomes dangerous.*
 
 ---
 
-### 🚑 Saving Lives Through Robotics & Intelligent Response
+</div>
 
-*"Designed to assist rescue teams in dangerous environments where human access becomes difficult."*
+# 📌 Project Overview
 
-🔥 Fire Detection • 🌫 Gas Monitoring • 📷 Surveillance • 🚗 Smart Mobility • 🚨 Emergency Alerts
+RescueBot is a smart disaster-response robotic vehicle developed to support emergency rescue operations in hazardous and life-threatening environments. The robot is capable of detecting environmental dangers, navigating disaster zones, and assisting rescue personnel through real-time monitoring and intelligent sensing technologies.
+
+The system focuses on improving rescue efficiency while reducing human exposure to dangerous conditions.
+
+---
+
+# 🎯 Primary Objectives
+
+<table>
+<tr>
+<td width="50%">
+
+### ✔ Hazard Detection
+- Fire identification
+- Gas leakage monitoring
+- Temperature analysis
+- Emergency alert generation
+
+</td>
+
+<td width="50%">
+
+### ✔ Rescue Assistance
+- Remote area inspection
+- Live environmental monitoring
+- Surveillance support
+- Safer rescue operations
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🌍 Application Areas
+
+| Sector | Use Case |
+|---|---|
+| Fire Rescue | Detect fire and monitor affected areas |
+| Industrial Safety | Identify toxic gases and hazardous conditions |
+| Earthquake Response | Explore collapsed or dangerous structures |
+| Disaster Surveillance | Provide real-time situational monitoring |
+| Emergency Operations | Assist rescue teams in inaccessible zones |
+
+---
+
+# ⚙ Core Features
+
+<div align="center">
+
+| Smart Mobility | Hazard Monitoring | Surveillance | Emergency Support |
+|---|---|---|---|
+| Multi-direction movement | Fire detection | Live monitoring | Real-time alerts |
+| Obstacle navigation | Gas sensing | Area inspection | Rescue assistance |
+| Compact design | Temperature sensing | Camera integration | Environmental analysis |
 
 </div>
 
 ---
 
-# Overview
-
-**RescueBot** is an intelligent disaster-response robotic platform developed to support emergency rescue operations in hazardous environments. The system is capable of monitoring dangerous conditions, navigating affected areas, and assisting rescue teams with real-time environmental analysis.
-
-The robot is specifically designed for scenarios where direct human access becomes risky or impossible.
-
----
-
-# Target Applications
-
-| Application Area | Purpose |
-|---|---|
-| Fire Accidents | Detect flames, smoke, and high temperatures |
-| Industrial Hazards | Monitor toxic gases and unsafe environments |
-| Earthquake Zones | Navigate collapsed or dangerous structures |
-| Rescue Missions | Provide remote monitoring and situational awareness |
-| Disaster Surveillance | Assist emergency teams with live inspection |
-
----
-
-# Core Features
-
-## Smart Mobility System
-
-- Multi-direction robotic movement
-- Compact and rugged chassis design
-- Hazard-zone navigation capability
-- Obstacle traversal support
-
----
-
-## Environmental Hazard Detection
-
-| Sensor | Function |
-|---|---|
-| Flame Sensor | Fire detection |
-| MQ Gas Sensor | Smoke and gas monitoring |
-| Temperature Sensor | Heat level analysis |
-| Buzzer Alert | Emergency warning system |
-
----
-
-## Surveillance & Monitoring
-
-- Live environmental monitoring
-- Disaster-area inspection
-- Real-time obstacle observation
-- Camera-based surveillance system
-- Future AI-based victim detection support
-
----
-
-## Emergency Assistance
-
-- Automated alert generation
-- Environmental status monitoring
-- Support for rescue personnel
-- Intelligent disaster-response workflow
-
----
-
-# Hardware Components
-
-| Component | Description |
-|---|---|
-| ESP32 / Arduino | Main microcontroller unit |
-| Motor Driver Module | Controls motor movement |
-| DC Motors | Robotic locomotion |
-| Flame Sensor | Fire detection |
-| MQ Gas Sensor | Smoke and gas sensing |
-| Temperature Sensor | Heat monitoring |
-| Camera Module | Live surveillance |
-| Buzzer | Audio alert system |
-| Battery Pack | Portable power source |
-| Chassis | Robot structural frame |
-
----
-
-# System Architecture
+# 🧠 System Architecture
 
 ```text
                     DISASTER ENVIRONMENT
                               │
- ┌─────────────────────────────────────────────────────┐
- │                 SENSOR LAYER                        │
- │   Flame Sensor | Gas Sensor | Temperature Sensor    │
- └─────────────────────────────────────────────────────┘
+ ┌────────────────────────────────────────────────────┐
+ │                 SENSOR LAYER                       │
+ │                                                    │
+ │   Flame Sensor   Gas Sensor   Temperature Sensor   │
+ └────────────────────────────────────────────────────┘
                               │
                               ▼
- ┌─────────────────────────────────────────────────────┐
- │                PROCESSING UNIT                      │
- │                     ESP32                           │
- └─────────────────────────────────────────────────────┘
+ ┌────────────────────────────────────────────────────┐
+ │                PROCESSING UNIT                     │
+ │                      ESP32                         │
+ └────────────────────────────────────────────────────┘
                               │
               ┌───────────────┴───────────────┐
               ▼                               ▼
 
-     Decision & Alert System          Motor Control System
+      Decision & Alert System        Motor Driver System
 
               │                               │
               ▼                               ▼
 
-        Emergency Alerts              Robotic Navigation
+        Emergency Warnings          Robotic Navigation
 
                               │
                               ▼
 
-                    Camera Surveillance
+                     Camera Surveillance
 ````
 
 ---
 
-# Operational Workflow
+# 🔄 Operational Workflow
 
 ```text
-[ Hazard Detection ]
-          ↓
-[ Environmental Analysis ]
-          ↓
-[ Alert Generation ]
-          ↓
-[ Area Navigation ]
-          ↓
-[ Live Monitoring ]
-          ↓
-[ Rescue Assistance ]
+ Hazard Detection
+         ↓
+ Environment Analysis
+         ↓
+ Alert Generation
+         ↓
+ Area Navigation
+         ↓
+ Live Monitoring
+         ↓
+ Rescue Assistance
 ```
 
 ---
 
-# Technical Highlights
+# 🔧 Hardware Components
 
-| Capability               | Description                               |
-| ------------------------ | ----------------------------------------- |
-| Smart Hazard Detection   | Real-time fire and gas sensing            |
-| Surveillance Integration | Live monitoring support                   |
-| Emergency Alert System   | Immediate warning generation              |
-| Modular Architecture     | Expandable hardware design                |
-| AI-Ready Platform        | Supports future intelligent systems       |
-| Disaster Support         | Built for emergency response applications |
+| Component           | Function                |
+| ------------------- | ----------------------- |
+| ESP32 / Arduino     | Main controller         |
+| Motor Driver Module | Controls motor movement |
+| DC Motors           | Robot locomotion        |
+| Flame Sensor        | Fire detection          |
+| MQ Gas Sensor       | Smoke & gas monitoring  |
+| Temperature Sensor  | Heat monitoring         |
+| Camera Module       | Surveillance system     |
+| Buzzer              | Emergency alerts        |
+| Battery Pack        | Portable power source   |
+| Chassis             | Structural body         |
 
 ---
 
-# Future Enhancements
+# 🚀 Technical Highlights
 
-* Thermal Imaging Camera
-* GPS-Based Location Tracking
+<table>
+<tr>
+<td width="33%">
+
+### Smart Detection
+
+Real-time monitoring of hazardous environmental conditions.
+
+</td>
+
+<td width="33%">
+
+### Intelligent Surveillance
+
+Camera-based inspection and live disaster monitoring.
+
+</td>
+
+<td width="33%">
+
+### Expandable Architecture
+
+Future-ready design supporting AI and autonomous systems.
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🔮 Future Enhancements
+
+* Thermal Imaging System
 * AI Victim Detection
+* GPS-Based Tracking
 * Semi-Autonomous Navigation
+* Wireless Communication Module
 * Drone-Assisted Monitoring
-* Wireless Remote Communication
-* Cloud-Based Data Monitoring
+* Cloud-Based Monitoring Dashboard
 
 ---
 
-# Project Mission
+# 📈 Project Impact
 
-> RescueBot is designed to improve disaster response efficiency by combining robotics, sensing technologies, and intelligent automation into a compact and reliable rescue platform.
+RescueBot aims to improve disaster response efficiency by combining robotics, sensing technologies, and intelligent automation into a compact and reliable rescue platform capable of supporting emergency teams during critical situations.
 
 ---
 
@@ -185,7 +206,7 @@ The robot is specifically designed for scenarios where direct human access becom
 
 # 🚨 RESCUEBOT
 
-### *Protect • Detect • Rescue*
+### Protect • Detect • Rescue
 
 **Built for Emergency Response & Human Safety**
 
