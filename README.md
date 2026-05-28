@@ -1,4 +1,4 @@
-````md id="x8qnro"
+
 <div align="center">
 
 # 🚨 RESCUEBOT
